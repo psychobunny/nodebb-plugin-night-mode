@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-night-mode",
-  "version": "0.2.3",
-  "description": "A starter kit for quickly creating NodeBB plugins",
+  "version": "1.0.0",
+  "description": "Adds a lightbulb icon to your persona theme's header to toggle a dark skin.",
   "main": "library.js",
   "repository": {
     "type": "git",
@@ -9,9 +9,10 @@
   },
   "keywords": [
     "nodebb",
-    "plugin",
-    "quickstart",
-    "shell"
+    "theme",
+    "dark",
+    "skin",
+    "night mode"
   ],
   "author": {
     "name": "psychobunny",
