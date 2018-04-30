@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-night-mode",
+	"url": "https://github.com/NodeBB/nodebb-plugin-night-mode",
+	"library": "./library.js",
+	"hooks": [],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	]
+}
