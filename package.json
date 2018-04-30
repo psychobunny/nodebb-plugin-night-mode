@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-night-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a lightbulb icon to your persona theme's header to toggle a dark skin.",
   "main": "library.js",
   "repository": {
