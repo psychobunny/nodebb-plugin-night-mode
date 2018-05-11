@@ -6,6 +6,10 @@ $(document).ready(function() {
 	$('ul#logged-in-menu').prepend(panel);
 	$('ul#logged-out-menu').prepend(panel);
 
+	if (utils.findBootstrapEnvironment() === 'xs') {
+		$('#menu').prepend(panel);
+	}
+
 	var enabled = localStorage.getItem('user:theme') === 'lights-out';
 	$('body').toggleClass('lights-out',  enabled);
 
